@@ -47,3 +47,12 @@ private static void run(String source) {
     System.out.println(token);
   }
 }
+
+static void err(int line, String mesage) {
+  report(line, "", message);
+}
+
+private static void report(int line, String where, String message) {
+  System.err.println("[line " + line + "] Error" + where + ": " + message);
+  hadError = true;
+}
