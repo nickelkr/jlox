@@ -144,7 +144,7 @@ class Scanner {
     advance();
 
     // Trim the surrounding quotes.
-    String value = source.substring(start + 1, curent - 1);
+    String value = source.substring(start + 1, current - 1);
     addToken(STRING, value);
   }
 
