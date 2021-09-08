@@ -1,7 +1,7 @@
 package com.nickelkr.lox;
 
 class AstPrinter implements Expr.Visitor<String> {
-  String print(Exper expr) {
+  String print(Expr expr) {
     return expr.accept(this);
   }
 
@@ -26,7 +26,7 @@ class AstPrinter implements Expr.Visitor<String> {
     return parenthesize(expr.operator.lexeme, expr.right);
   }
 
-  private String parenthesize(String name, Expx... exprs) {
+  private String parenthesize(String name, Expr... exprs) {
     StringBuilder builder = new StringBuilder();
 
     builder.append("(").append(name);
