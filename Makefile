@@ -12,7 +12,8 @@ build_lox:
 		java/com/nickelkr/lox/TokenType.java \
 		java/com/nickelkr/lox/Expr.java \
 		java/com/nickelkr/lox/AstPrinter.java \
-		java/com/nickelkr/lox/Parser.java
+		java/com/nickelkr/lox/Parser.java \
+		java/com/nickelkr/lox/Interpreter.java
 
 run:
 	java -cp target com.nickelkr.lox.Lox
