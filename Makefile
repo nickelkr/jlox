@@ -14,7 +14,8 @@ build_lox:
 		java/com/nickelkr/lox/AstPrinter.java \
 		java/com/nickelkr/lox/Parser.java \
 		java/com/nickelkr/lox/Interpreter.java \
-		java/com/nickelkr/lox/RuntimeError.java
+		java/com/nickelkr/lox/RuntimeError.java \
+		java/com/nickelkr/lox/Stmt.java
 
 run:
 	java -cp target com.nickelkr.lox.Lox
