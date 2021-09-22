@@ -11,11 +11,11 @@ build_lox:
 		java/com/nickelkr/lox/Token.java \
 		java/com/nickelkr/lox/TokenType.java \
 		java/com/nickelkr/lox/Expr.java \
-		java/com/nickelkr/lox/AstPrinter.java \
 		java/com/nickelkr/lox/Parser.java \
 		java/com/nickelkr/lox/Interpreter.java \
 		java/com/nickelkr/lox/RuntimeError.java \
-		java/com/nickelkr/lox/Stmt.java
+		java/com/nickelkr/lox/Stmt.java \
+		java/com/nickelkr/lox/Environment.java
 
 run:
 	java -cp target com.nickelkr.lox.Lox
