@@ -15,7 +15,8 @@ build_lox:
 		java/com/nickelkr/lox/Interpreter.java \
 		java/com/nickelkr/lox/RuntimeError.java \
 		java/com/nickelkr/lox/Stmt.java \
-		java/com/nickelkr/lox/Environment.java
+		java/com/nickelkr/lox/Environment.java \
+		java/com/nickelkr/lox/LoxCallable.java
 
 run:
 	java -cp target com.nickelkr.lox.Lox
