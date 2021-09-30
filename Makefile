@@ -17,7 +17,8 @@ build_lox:
 		java/com/nickelkr/lox/Stmt.java \
 		java/com/nickelkr/lox/Environment.java \
 		java/com/nickelkr/lox/LoxCallable.java \
-		java/com/nickelkr/lox/LoxFunction.java
+		java/com/nickelkr/lox/LoxFunction.java \
+		java/com/nickelkr/lox/Return.java
 
 run:
 	java -cp target com.nickelkr.lox.Lox
