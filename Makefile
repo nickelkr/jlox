@@ -18,7 +18,8 @@ build_lox:
 		java/com/nickelkr/lox/Environment.java \
 		java/com/nickelkr/lox/LoxCallable.java \
 		java/com/nickelkr/lox/LoxFunction.java \
-		java/com/nickelkr/lox/Return.java
+		java/com/nickelkr/lox/Return.java \
+		java/com/nickelkr/lox/Resolver.java
 
 run:
 	java -cp target com.nickelkr.lox.Lox
